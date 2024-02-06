@@ -6,6 +6,7 @@
 import os
 import numpy as np 
 import pandas as pd
+import xarray as xr
 from scipy.interpolate import CubicSpline
 
 # # # # 
@@ -109,7 +110,7 @@ y_ferrihydrite_GDS75_syn_f6 = spl(wavelengths_emit_um)
 
 
 # # # # 
-# format desired endmembers into array
+# format desired endmembers into an array
 # # # # 
 
 endmembers = np.column_stack((y_pyrite_LV95_6A, y_pyrite_LV95_6A, y_hematite_GDS27, y_goethite_WS222_medium_gr, y_jarosite_GDS99_K_200C, y_schwertmannite_BZ93_1, y_copiapite_GDS21 ,y_ferrihydrite_GDS75_syn_f6))

@@ -113,4 +113,4 @@ y_ferrihydrite_GDS75_syn_f6 = spl(wavelengths_emit_um)
 # format desired endmembers into an array
 # # # # 
 
-endmembers = np.column_stack((y_pyrite_LV95_6A, y_pyrite_LV95_6A, y_hematite_GDS27, y_goethite_WS222_medium_gr, y_jarosite_GDS99_K_200C, y_schwertmannite_BZ93_1, y_copiapite_GDS21 ,y_ferrihydrite_GDS75_syn_f6))
+endmembers = np.column_stack((y_pyrite_S29_4, y_pyrite_LV95_6A, y_hematite_GDS27, y_goethite_WS222_medium_gr, y_jarosite_GDS99_K_200C, y_schwertmannite_BZ93_1, y_copiapite_GDS21 ,y_ferrihydrite_GDS75_syn_f6))

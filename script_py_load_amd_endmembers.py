@@ -30,16 +30,55 @@ df_pyrite_S29_4 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Pyrite_LV95-6A_Weath_on_Tail_BECKb_AREF.txt'
 df_pyrite_LV95_6A = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
 
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Pyrite_S26-8_BECKc_AREF.txt'
+df_pyrite_S26_8 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Pyrite_S30_BECKc_AREF.txt'
+df_pyrite_S30 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Pyrite_HS35.3_BECKb_AREF.txt'
+df_pyrite_HS35_3 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Pyrite_GDS483.c_30-60um_ASDFRc_AREF.txt'
+df_pyrite_GDS483 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
 # goethite
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Goethite_WS222_Medium_Gr._BECKa_AREF.txt'
 df_goethite_WS222_medium_gr = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Goethite_WS222_Coarse_Gr._BECKa_AREF.txt'
+df_goethite_WS222_coarse_gr = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Goethite_Thin_Film_WS222_BECKa_AREF.txt'
+df_goethite_WS222_thin_film = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
 
 # jarosite
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/jarosite/c1jb709.txt'
 df_c1jb709 = pd.read_csv(file,header=0,skiprows=2,delimiter="\t",usecols=[0, 1],names=["wavelength","reflectance"])
 
-file = '/Users/bramble/Downloads/usgs_splib07/ASCIIdata/ASCIIdata_splib07a/ChapterM_Minerals/splib07a_Jarosite_GDS99_K_200C_Syn_BECKa_AREF.txt'
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_GDS99_K_200C_Syn_BECKa_AREF.txt'
 df_jarosite_GDS99_K_200C = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_GDS98_K_90C_Syn_BECKa_AREF.txt'
+df_jarosite_GDS98_K_90C = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_GDS636_K_Penalt325um_ASDNGa_AREF.txt'
+df_jarosite_GDS636 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_GDS732_K_200CSyn6hr_ASDNGb_AREF.txt'
+df_jarosite_GDS732 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_JR2501_(K)_BECKb_AREF.txt'
+df_jarosite_JR2501 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_SJ-1_H3O_10-20%_BECKb_AREF.txt'
+df_jarosite_SJ_1 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_Thin_Film_GDS243_BECKb_AREF.txt'
+df_jarosite_GDS243 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Jarosite_GDS24_Na_BECKb_AREF.txt'
+df_jarosite_GDS24 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
 
 # schwertmannite
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Schwertmannite_BZ93-1_BECKb_AREF.txt'

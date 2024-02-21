@@ -52,6 +52,9 @@ df_goethite_WS222_coarse_gr = pd.read_csv(file,header=None,skiprows=1,names=["re
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Goethite_Thin_Film_WS222_BECKa_AREF.txt'
 df_goethite_WS222_thin_film = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
 
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Goethite_GDS134_ASDFRb_AREF.txt'
+df_goethite_GDS134 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
 # jarosite
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/jarosite/c1jb709.txt'
 df_c1jb709 = pd.read_csv(file,header=0,skiprows=2,delimiter="\t",usecols=[0, 1],names=["wavelength","reflectance"])
@@ -91,6 +94,30 @@ df_copiapite_GDS21 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance
 # hematite
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_GDS27_BECKa_AREF.txt'
 df_hematite_GDS27 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_Thin_Film_GDS27_BECKa_AREF.txt'
+df_hematite_GDS27_thin_film = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_FE2602_BECKb_AREF.txt'
+df_hematite_FE2602 = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_GDS69.b_104-150u_BECKb_AREF.txt'
+df_hematite_GDS69b = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_GDS69.c_60-104um_BECKb_AREF.txt'
+df_hematite_GDS69c = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_GDS69.d_30-45um_BECKb_AREF.txt'
+df_hematite_GDS69d = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_GDS69.e_20-30um_BECKb_AREF.txt'
+df_hematite_GDS69e = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_GDS69.f_10-20um_BECKb_AREF.txt'
+df_hematite_GDS69f = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
+
+file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Hematite_GDS69.g_lt10um_BECKb_AREF.txt'
+df_hematite_GDS69g = pd.read_csv(file,header=None,skiprows=1,names=["reflectance"])
 
 # ferrihydrite
 file = '/Users/bramble/My Drive/_JPL_AMD/endmembers/usgs/splib07a_Ferrihydrite_GDS75_Syn_F6_BECKb_AREF.txt'

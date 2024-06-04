@@ -1,5 +1,6 @@
 # Code written by: Michael Bramble | michael.s.bramble@jpl.nasa.gov
-# load unmixing endmembers for EMIT AMD investigation
+# load unmixing endmembers for EMIT AMD investigation. ASCII spectra files are loaded and then resampled to
+# the EMIT wavelenths. 
 # 20240124 - initial version
 # 20240202 - finalized initial version, exports endmembers in a matrix
 # 20240222 - completed first set of endmembers
